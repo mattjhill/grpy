@@ -1,2 +1,2 @@
-# grpy
+# GRPy
 Python interface to GRP
