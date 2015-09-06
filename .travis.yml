@@ -42,7 +42,7 @@ install:
 
     - conda install --yes numpy=$NUMPY_VERSION scipy nose pip Cython
 
-    - CXX=g++ python setup.py build_ext -I/usr/local/include/eigen3 i--inplace
+    - CXX=g++ python setup.py build_ext -I/usr/local/include/eigen3 --inplace
 
 script:
     - nosetests -v
